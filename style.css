@@ -1,0 +1,109 @@
+
+.grid-container {
+  display: grid;
+  grid-template: 1fr 4fr / 1fr 3fr;
+  grid-row-gap: 30px;
+}
+
+.Heading{
+
+  background-color: #32CD32;
+  justify-content: center;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px;
+  width: 500px;
+}
+
+.Heading h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 90%;
+}
+
+.Heading h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.headContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #32CD32;
+  grid-column: 1 / -1;
+}
+
+.Picture {
+   width: 302.4;
+   height: 403.2;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+.Sidebar {
+  grid-row: 2;
+  background-color: #DCDCDC;
+  margin-left: 100px;
+  margin-right: 25px;
+  grid-template:
+}
+
+.Contact {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    border-bottom: solid;
+    border-color: black;
+}
+
+.Social {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+}
+
+.pictureContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.contact-info{
+  display: flex;
+}
+
+.social-info{
+  display: flex;
+}
+
+.bottomBorder{
+  border-bottom: solid;
+  border-color: #DCDCDC;
+}
+
+
+.Main {
+  grid-row: 2;
+  margin-right: 200px;
+  margin-left: 40px;
+}
+
+.contentBox{
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 5fr
+}
+
+ul{
+  column-count: 6;
+  column-gap: 20px;
+}
